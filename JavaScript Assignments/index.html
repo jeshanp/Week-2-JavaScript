@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignments</title>
+</head>
+
+<body>
+
+    <h1>JavaScript Assignments</h1>
+
+    <h3>Assignment 5 form: </h3>
+    <form id="form1" onsubmit="getFormvalue()">
+        First name: <input type="text" name="fname" value="David"><br>
+        Last name: <input type="text" name="lname" value="Beckham"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Assignment 6 form: </h3>
+    <form>
+        <select id="colorSelect">
+            <option>Red</option>
+            <option>Green</option>
+            <option>White</option>
+            <option>Black</option>
+        </select> <input type="button" onclick="removecolor()" value="Select and Remove">
+    </form>
+
+    <h3>Assignment 7:</h3>
+    <p>This is a <b class="boldtext">paragraph</b> with some <b class="boldtext">bold</b> text.</p>
+    <button type="button" onmouseenter="highlightBold()" onmouseleave="unhighlightBold()">Hover over this to highlight the bold text</button>
+
+    <h3>Assignment 8:</h3>
+    <input type="date" id="datefield" oninput="getCurrMonth()">
+    <p>Selected month is: <span id="monthText">None</span></p>
+
+    <h3>Assignment 9: </h3>
+    <input type="date" id="datefieldweekend" oninput="getWeekend()">
+    <p id="dateweekendText">Pick a date to check if it is a weekend</p>
+
+    <h3>Assignment 11:</h3>
+    <p>Click the button to toggle time display</p>
+    <button type="button" onclick="displayTime()">Stop Time</button>
+
+<!--Scripts Section-->
+    <script>
+        console.log("JS Success")
+    </script>
+    <script type="text/javascript" src="assignments.js"></script>
+</body>
+
+</html>
